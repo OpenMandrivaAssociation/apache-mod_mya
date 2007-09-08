@@ -6,7 +6,7 @@
 Summary:	Mod_mya is a DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	3.0.1
-Release:	%mkrel 5
+Release:	%mkrel 6
 Group:		System/Servers
 License:	GPL
 URL:		http://www.synthemesc.com/mod_mya/
@@ -19,10 +19,8 @@ Requires(pre):	apache >= 2.2.0
 Requires:	apache-conf >= 2.2.0
 Requires:	apache >= 2.2.0
 BuildRequires:	apache-devel >= 2.2.0
-BuildRequires:	MySQL-devel
+BuildRequires:	mysql-devel
 BuildRequires:	file
-Provides:	apache2-mod_mya
-Obsoletes:	apache2-mod_mya
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
