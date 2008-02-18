@@ -3,7 +3,7 @@
 %define mod_conf 80_%{mod_name}.conf
 %define mod_so %{mod_name}.so
 
-Summary:	Mod_mya is a DSO module for the apache web server
+Summary:	DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	3.0.1
 Release:	%mkrel 6
