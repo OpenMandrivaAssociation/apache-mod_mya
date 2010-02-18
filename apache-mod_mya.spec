@@ -6,7 +6,7 @@
 Summary:	DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	3.0.1
-Release:	%mkrel 13
+Release:	%mkrel 14
 Group:		System/Servers
 License:	GPL
 URL:		http://www.synthemesc.com/mod_mya/
