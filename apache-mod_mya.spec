@@ -9,7 +9,7 @@ Version:	3.0.1
 Release:	24
 Group:		System/Servers
 License:	GPL
-URL:		http://www.synthemesc.com/mod_mya/
+URL:		https://www.synthemesc.com/mod_mya/
 Source0:	%{mod_name}-%{version}.tar.bz2
 Source1:	%{mod_conf}.bz2
 Requires(pre): rpm-helper
